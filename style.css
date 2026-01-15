@@ -1,0 +1,108 @@
+body {
+  background-color: black;
+  font-family: cursive;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.glow {
+  font-size: 2rem;
+  color: #fdfdfd;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.navbox{
+    display: flex;
+    height: 50px;
+    border: 1px solid red;
+    justify-content: start;
+}
+
+.controls{
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+.top_button_layout {
+    display: flex; 
+}
+
+.top_button_layout a {
+    display: block; 
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+/* Link Styles */
+.nav-links {
+  display: flex;
+  list-style: none;
+  transition: color 0.3s;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+/* .nav-links a:hover {
+  color: #04AA6D; /* Highlight color on hover */
+
+.navtext:hover{
+    text-shadow: 0 0 20px #fff, 0 0 30px #00cc00, 0 0 40px #00cc00, 0 0 50px #00cc00, 0 0 60px #00cc00, 0 0 70px #00cc00, 0 0 80px #00cc00;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #006400, 0 0 40px #006400, 0 0 50px #006400, 0 0 60px #006400, 0 0 70px #006400;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #00cc00, 0 0 40px #00cc00, 0 0 50px #00cc00, 0 0 60px #00cc00, 0 0 70px #00cc00, 0 0 80px #00cc00;
+  }
+}
+
