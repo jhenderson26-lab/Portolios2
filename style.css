@@ -71,7 +71,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 3rem;
+    padding: 1rem;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -81,12 +81,13 @@ body {
 
 .logo {
     font-size: 1.8rem;
-    font-weight: 700;
-   
-    -webkit-background-clip: text;
-    
+    -webkit-background-clip: text; 
     background-clip: text;
     letter-spacing: 2px;
+
+}
+.basecamp{
+    width: 55px;
 }
 
 nav ul {
@@ -448,7 +449,8 @@ h1.glow-text {
 /* Logos Grid */
 .logos-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(5, 1fr);
+    /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
     gap: 2rem;
     padding: 3rem 0;
     justify-items: center;
